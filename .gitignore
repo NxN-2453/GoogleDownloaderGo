@@ -1,0 +1,56 @@
+# ---------------------------------------------------------------------------
+# Secrets and credentials - never commit these.
+# ---------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+client_secret.json
+client-secrets.json
+service-account.json
+service_account.json
+token.json
+tokens.json
+secrets/
+private/
+
+# ---------------------------------------------------------------------------
+# Logs (may contain file IDs and request metadata, never tokens)
+# ---------------------------------------------------------------------------
+logs/
+*.log
+*.log.*
+
+# ---------------------------------------------------------------------------
+# Build output
+# ---------------------------------------------------------------------------
+/relay
+/relay.exe
+/bin/
+/dist/
+/build/
+*.exe
+*.test
+*.out
+coverage.txt
+coverage.html
+
+# ---------------------------------------------------------------------------
+# Local scratch space / test artifacts
+# ---------------------------------------------------------------------------
+/tmp/
+/scratch/
+/testdata/downloads/
+*.part
+*.partial
+
+# ---------------------------------------------------------------------------
+# Editor / OS noise
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
